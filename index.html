@@ -2,52 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis optio maiores blanditiis. Itaque, pariatur blanditiis quis voluptate nostrum, suscipit reiciendis magnam et fuga velit ducimus tempora eaque natus excepturi beatae!</p>
-    <form id="survey-form" action="#">
-      <label for="name" id="name-label">Name: </label>
-      <input id="name" type="text" placeholder="Enter your name" required>
-      <br>
-      <label for="email" id="email-label">Email: </label>
-      <input id="email" type="email" placeholder="Enter your email" required>
-      <br>
-      <label for="number" id="number-label">Number: </label>
-      <input type="number" id="number" max="10" min="6" placeholder="Enter min 6 and max 10">
-      <br>
-      <label>Select one option: </label> <br>
-      <select name="" id="dropdown">
-        <option value="1">option 1</option>
-        <option value="2">option 2</option>
-      </select>
-      <br>
-      <input type="radio" name="radio" value="1">
-      <label for="">Radio 1</label>
-      <br>
-      <input type="radio" name="radio" value="2">
-      <label for="">Radio 2</label>
-      <br>
- 
-      <input type="checkbox" value="check1">
-      <label>CheckBox 1</label>
-      <br>
-      <input type="checkbox" value="check2">
-      <label>CheckBox 2</label>
-      <br>
-      <input type="checkbox" value="check3">
-      <label>CheckBox 3</label>
-      <br>
-      <input type="checkbox" value="check4">
-      <label>CheckBox 4</label>
-      <br>
+  <body class="text-white">
+    <div class="container">
+      <h1 class="text-center" id="title">Survey Form</h1>
+      <p class="text-center"id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis optio maiores blanditiis. Itaque, pariatur blanditiis quis voluptate nostrum, suscipit reiciendis magnam et fuga velit ducimus tempora eaque natus excepturi beatae!</p>
 
-      <textarea name="" id="">Description: </textarea>
-      <br>
-      <button type="submit" id="submit">Submit</button>
+
+    </div>
+
+    <form class="container py-5 px-4" id="survey-form" action="#">
+      <div class="w-75 m-auto">
+        <label for="name" id="name-label">Name: </label>
+        <br>
+        <input class="mb-4 w-75"id="name" type="text" placeholder="Enter your name" required>
+        <br>
+        <label for="email" id="email-label">Email: </label>
+        <br>
+        <input class="mb-4 w-75"id="email" type="email" placeholder="Enter your email" required>
+        <br>
+        <label for="number" id="number-label">Number: </label>
+        <br>
+        <input class="mb-4 w-75"type="number" id="number" max="10" min="6" placeholder="Enter min 6 and max 10">
+        <br>
+        <label>Select one option: </label> <br>
+        <select class="mb-4 w-75" name="" id="dropdown" >
+          <option value="" disabled>Select Option</option>
+          <option value="1">option 1</option>
+          <option value="2">option 2</option>
+        </select>
+        <br>
+        <div class="mb-4">
+          <input type="radio" name="radio" value="1">
+          <label for="">Radio 1</label>
+
+        <br>
+          <input type="radio" name="radio" value="2">
+          <label for="">Radio 2</label>
+
+        </div>
+
+
+        <div class="mb-4">
+          <input type="checkbox" value="check1">
+          <label>CheckBox 1</label>
+          <br>
+          <input type="checkbox" value="check2">
+          <label>CheckBox 2</label>
+          <br>
+          <input type="checkbox" value="check3">
+          <label>CheckBox 3</label>
+          <br>
+          <input type="checkbox" value="check4">
+          <label>CheckBox 4</label>
+
+        </div>
+
+
+        <label for="">Description: </label>
+        <br>
+        <textarea class="mb-4 w-75"name="" id=""></textarea>
+        <br>
+        <button class="text-white bg-danger w-75"type="submit" id="submit">Submit</button>
+
+      </div>
+
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
@@ -64,5 +89,6 @@
 
     -->
     <script  src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>

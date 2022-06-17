@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  background-image: url(../image/img.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+form{
+  background-color: rgba(127,127,127,0.5);
+}
+div{
+  margin: 0;
+}
