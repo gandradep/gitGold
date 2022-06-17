@@ -7,7 +7,48 @@
   </head>
 
   <body>
-    <h1>Hello World, we are Software Developers!</h1>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis optio maiores blanditiis. Itaque, pariatur blanditiis quis voluptate nostrum, suscipit reiciendis magnam et fuga velit ducimus tempora eaque natus excepturi beatae!</p>
+    <form id="survey-form" action="#">
+      <label for="name" id="name-label">Name: </label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <br>
+      <label for="email" id="email-label">Email: </label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <br>
+      <label for="number" id="number-label">Number: </label>
+      <input type="number" id="number" max="10" min="6" placeholder="Enter min 6 and max 10">
+      <br>
+      <label>Select one option: </label> <br>
+      <select name="" id="dropdown">
+        <option value="1">option 1</option>
+        <option value="2">option 2</option>
+      </select>
+      <br>
+      <input type="radio" name="radio" value="1">
+      <label for="">Radio 1</label>
+      <br>
+      <input type="radio" name="radio" value="2">
+      <label for="">Radio 2</label>
+      <br>
+
+      <input type="checkbox" value="check1">
+      <label>CheckBox 1</label>
+      <br>
+      <input type="checkbox" value="check2">
+      <label>CheckBox 2</label>
+      <br>
+      <input type="checkbox" value="check3">
+      <label>CheckBox 3</label>
+      <br>
+      <input type="checkbox" value="check4">
+      <label>CheckBox 4</label>
+      <br>
+
+      <textarea name="" id="">Description: </textarea>
+      <br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
